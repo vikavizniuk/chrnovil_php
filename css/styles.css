@@ -1,0 +1,313 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 20vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.videoback {
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+header .shadow-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3),
+    rgb(232, 232, 232)
+  );
+}
+
+.part2 {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.part2 p {
+  width: 56%;
+  padding-left: 20px;
+  margin: 0;
+  font-size: 20px;
+  color: rgb(192, 192, 192);
+}
+
+.part2 span {
+  color: rgb(14, 14, 14);
+  background-color: yellow;
+}
+
+.part2 a {
+  padding-right: 60px;
+  font-size: 20px;
+}
+
+a {
+  color: rgb(192, 192, 192);
+  text-decoration: none;
+  padding-right: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+a:hover {
+  color: rgb(39, 39, 39);
+  transition: 0.25s;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-size: large;
+}
+
+
+section {
+  display: flex;
+  background-color: rgb(232, 232, 232);
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text p {
+  font-family: "Roboto", sans-serif;
+  font-size: 3vw;
+  margin-top: 100px;
+  display: block;
+  width: 60%;
+  text-align: justify;
+}
+
+.part a img {
+  width: 30px;
+  margin-left: 40px;
+  filter: invert(1);
+  transition: 0.3s;
+}
+
+.part a img:hover {
+  filter: invert(0);
+  
+}
+
+.panel-admin{
+  margin: 40px;
+}
+
+.links-admin a{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  transition: 0.3s;
+}
+.links-admin a:hover{
+  color: rgb(97, 97, 97);
+}
+
+section img {
+  width: 40vw;
+  height: 85vh;
+  object-fit: cover;
+  object-position: 50% 50%;
+  padding: 40px 30px 0 0 ;
+}
+
+.greyback {
+  background-color: rgb(232, 232, 232);
+  width: auto;
+  height: 50px;
+}
+
+.main-title {
+  width: auto;
+  height: 25vw;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.yellowback {
+  background-color: yellow;
+  grid-area: 4/1/6/5;
+}
+
+.grayback {
+  background-color: rgb(193, 193, 193);
+  grid-area: 4/1/6/5;
+}
+
+.main-title p {
+  margin: 0;
+  grid-area: 3/1;
+  font-family: "Roboto", sans-serif;
+  font-size: 4vw;
+  width: 40vw;
+  padding: 30px 0 0 40px;
+}
+
+.biography{
+  padding: 0 10% 0 10%;
+  margin: 5% 0 ;
+}
+
+.biography p{
+  font-size: 25px;
+}
+
+.vstup {
+  padding: 0 20% 0 20%;
+  margin: 5% 0 5%;
+}
+
+.vstup p {
+  font-size: 35px;
+}
+
+.nav {
+  font-family: "Poppins", sans-serif;
+  padding: 0 0 10% 25%;
+}
+
+.nav p {
+  font-size: 3vw;
+  line-height: 1.4em;
+  letter-spacing: -0.02em;
+  display: block;
+  width: 70%;
+  text-align: justify;
+  stroke-opacity: 2em;
+}
+
+.black {
+  background-color: black;
+  color: white;
+  border: 5px solid black;
+}
+
+.grey {
+  background-color: rgb(224, 224, 224);
+  border: 5px solid rgb(224, 224, 224);
+}
+
+article {
+  width: auto;
+  height: 80vw;
+  display: grid;
+  grid-template-columns: 10% 10% 20% 20% 5% 5% 5% 5% 5% 5% 5% 5%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  overflow: hidden;
+}
+
+.grey_section {
+  background-color: rgb(224, 224, 224);
+  grid-area: 2/2/6/8;
+}
+
+.yellow_section {
+  background-color: yellow;
+  grid-area: 3/7/8/9;
+}
+
+.chornovil_picture {
+  grid-area: 1/6/5/13;
+}
+
+.earlylife {
+  font-family: "Poppins", sans-serif;
+  font-size: 6vw;
+  text-align: center;
+  margin-bottom: 6%;
+}
+
+.about_earlylife {
+  padding: 0 10% 0 10%;
+  font-size: 2vw;
+}
+
+.grey_section button {
+  background-color: rgb(224, 224, 224);
+  border-color: black;
+  padding: 10px 30px 10px 30px;
+  width: 14vw;
+  height: 5vw;
+  font-size: 1vw;
+  margin-left: 10%;
+}
+
+.grey_section button:hover {
+  background-color: rgb(42, 42, 42);
+  color: white;
+  transition: 0.4s;
+}
+
+footer {
+  background-color: rgb(13, 13, 13);
+  width: auto;
+  height: 20vw;
+}
+
+form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 2vw;
+}
+
+footer input {
+  border-color: white;
+  background-color: rgb(14, 14, 14);
+  color: white;
+  height: 3vw;
+  width: 50%;
+}
+
+footer label {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5vw;
+  margin-bottom: 10px;
+}
+
+footer button {
+  background-color: yellow;
+  color: rgb(14, 14, 14);
+  width: 51%;
+  height: 3.5vw;
+  margin-top: 5px;
+  font-family: italic;
+  font-size: 1.5vw;
+}
+
+footer button:hover {
+  background-color: rgb(13, 13, 13);
+  color: white;
+  border-color: rgb(13, 13, 13);
+  transition: 0.4s;
+}
